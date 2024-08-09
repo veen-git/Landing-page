@@ -1,5 +1,5 @@
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #E4E7E5;
     margin: 0;
     min-height: 100vh;
@@ -23,7 +23,8 @@ body {
 }
 
 .logo {
-    font-size: 24px;
+    font-variant: small-caps;
+    font-size: 36px;
     color: #ed7d51;
     font-weight: 700;
 }
@@ -69,6 +70,10 @@ button {
     font-weight: 900;
     color: #F9FAF8;
     margin-bottom: 16px;
+}
+
+img {
+    height: 298px;
 }
 .section.two {
     display: flex;
