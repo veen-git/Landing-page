@@ -61,8 +61,7 @@ button {
     padding: 4px 24px;
     background-color: #3882F6;
     color: #F9FAF8;
-    border: 1px solid royalblue;
-    
+    border: 1px solid royalblue;  
 }
 
 .content-left .title {
@@ -77,5 +76,34 @@ img {
 }
 .section.two {
     display: flex;
-
+    flex-direction: column;
+    gap: 24px;
+    padding: 10px 200px;
 }
+
+.title {
+    color: #1f2937;
+    align-self: center;
+    font-size: 32px;;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex: 1
+}
+
+.img-container {
+    text-align: center;
+    color: #1f2937;
+    max-width: 200px;
+    margin-top: 16px;
+}
+
+.img-container img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+
