@@ -6,6 +6,7 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .section.one {
@@ -14,6 +15,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 64px;
+    flex:1;
+ 
 }
 
 .header {
@@ -73,6 +76,7 @@ button {
 
 img {
     height: 298px;
+    
 }
 .section.two {
     display: flex;
@@ -104,6 +108,38 @@ img {
     height: 150px;
     width: 150px;
     margin-bottom: 10px;
+}
+
+.section.three {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    min-height: 390px;
+    margin: 50px 0px;
+    padding: 100px 300px;
+    gap: 32px;
+    align-items: flex-end;
+    flex:1;
+  
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+    flex-shrink: 0;
+}
+
+.person {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 700;
+    flex: 1 0 auto;
+
+    
+
 }
 
 
