@@ -5,8 +5,7 @@ body {
     min-height: 100vh;
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 40px;
+    gap: 48px;
 }
 
 .section.one {
@@ -16,7 +15,6 @@ body {
     flex-direction: column;
     gap: 64px;
     flex:1;
- 
 }
 
 .header {
@@ -30,6 +28,7 @@ body {
     font-size: 36px;
     color: #ed7d51;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .links {
@@ -76,8 +75,8 @@ button {
 
 img {
     height: 298px;
-    
 }
+
 .section.two {
     display: flex;
     flex-direction: column;
@@ -116,7 +115,6 @@ img {
     flex-direction: column;
     background-color: #E5E7EB;
     min-height: 390px;
-    margin: 50px 0px;
     padding: 100px 300px;
     gap: 32px;
     align-items: flex-end;
@@ -137,9 +135,34 @@ img {
     font-size: 24px;
     font-weight: 700;
     flex: 1 0 auto;
-
-    
-
 }
 
+.section.four {
+    display: flex;
+    background-color: #3882F6;
+    height: 130px;
+    flex: 1 1 auto;
+    justify-content: center;
+    border-radius: 8px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px 32px;
+    gap: 16px;
+}
+
+.action {
+    font-size: 14px;
+}
+
+.section.four button {
+    border-color: #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    min-height: 50px;
+    justify-content: center;
+    align-items: center;
+}
 
