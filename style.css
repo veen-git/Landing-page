@@ -92,8 +92,8 @@ img {
 
 .images {
     display: flex;
-    justify-content: space-around;
-    flex: 1
+    justify-content: center;
+    gap: 20px;
 }
 
 .img-container {
